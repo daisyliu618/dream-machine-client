@@ -1,12 +1,13 @@
 body {
-    /* background-color: #00b7ff;
+  /* background-color: #00b7ff;
     background-image: url('https://cdn.hipwallpaper.com/i/72/31/XSYDdK.jpg'); */
 
-
-    height: 100vh;
-    background: linear-gradient(135deg,
+  height: 100vh;
+  background: linear-gradient(
+    135deg,
     #fed128 0%,
-      #fed128 50%,
-      #1cd8df 50%,
-      #1cd8df 100%);
+    #fed128 50%,
+    #1cd8df 50%,
+    #1cd8df 100%
+  );
 }

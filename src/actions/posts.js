@@ -4,8 +4,8 @@ import {
   UPDATE,
   DELETE,
   LIKE,
-} from '../constants/actionTypes';
-import * as api from '../api';
+} from "../constants/actionTypes";
+import * as api from "../api";
 
 export const getPosts = () => async (dispatch) => {
   try {
