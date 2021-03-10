@@ -17,6 +17,9 @@ import { deletePost, likePost } from "../../../actions/posts";
 const Post = ({ post, setCurrentId }) => {
   const classes = useStyles();
   const dispatch = useDispatch();
+
+  // console.log(moment(post.createdAt));
+
   return (
     <Card className={classes.card}>
       <CardMedia
@@ -27,6 +30,7 @@ const Post = ({ post, setCurrentId }) => {
       <div className={classes.overlay}>
         <Typography variant="h6">{post.creator}</Typography>
         <Typography variant="h6">{moment(post.createdAt).fromNow()}</Typography>
+     
       </div>
       <div className={classes.overlay2}>
         <Button
@@ -46,7 +50,7 @@ const Post = ({ post, setCurrentId }) => {
         <Typography className={classes.title} variant="h5" gutterBottom>
           {post.title}
         </Typography>
-        <Typography variant="body" color="textSecondary" component="p">
+        <Typography variant="body1" color="textSecondary" component="p">
           {post.message}
         </Typography>
       </CardContent>
