@@ -91,7 +91,7 @@ const Form = ({currentId, setCurrentId}) => {
           label='Tags'
           fullWidth
           value={postData.tags}
-          onChange={(e) => setPostData({ ...postData, tags: e.target.value })}
+          onChange={(e) => setPostData({ ...postData, tags: e.target.value.split(',') })}
         />
         <div className={classes.fileInput}>
           <FileBase
@@ -102,7 +102,7 @@ const Form = ({currentId, setCurrentId}) => {
             }
           />
         </div>
-        <Button className={classes.buttonSubmit} variant="contained" style={{backgroundColor:'#4D1FF9'}}size='large' type='submit' fullWidth>Submit</Button>
+        <Button className={classes.buttonSubmit} variant="contained" style={{backgroundColor:'#4D1FF9'}} size='large' type='submit' fullWidth>Submit</Button>
         <Button variant="contained" style={{backgroundColor:'#FDC91F'}} size='large' onClick={clear} fullWidth>Clear</Button>
       </form>
     </Paper>
