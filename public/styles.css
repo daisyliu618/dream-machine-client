@@ -1,0 +1,60 @@
+.position-sky {
+    left: 85%;
+    top: 13px;
+    transform: translateX(-50%);
+    width: 800px;
+    height:150px;
+  }
+  
+  .position-witch {
+    left: 65%;
+    top: 40px;
+    width: 100px;
+    height:50px;
+  }
+
+  .header {
+    font-size: 5.3rem;
+    color: rgba(79, 125, 249, 0.73);
+    text-shadow: 0 0 3vw #f88f5f;
+    /* text-align: center; */
+}
+
+  
+  .float-animation {
+    transform-origin: bottom center;
+    -webkit-animation: float 5s ease-in infinite alternate;
+            animation: float 5s ease-in infinite alternate;
+  /*   animation:
+      float 2.5s linear infinite alternate,
+      rotate 2.5s linear infinite alternate; */
+  }
+  
+  
+  @keyframes float {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(-15px, -15px) rotate(4deg);
+    }
+    100% {
+      transform: translate(15px, 15px) rotate(-6deg);
+    }
+  }
+  
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    25% {
+      transform: rotate(5deg);
+    }
+    75% {
+      transform: rotate(-5deg);
+    }
+    100% {
+      transform: rotate(0);
+    }
+  }

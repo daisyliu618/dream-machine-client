@@ -1,13 +1,12 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+    /* background-color: #00b7ff;
+    background-image: url('https://cdn.hipwallpaper.com/i/72/31/XSYDdK.jpg'); */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+    height: 100vh;
+    background: linear-gradient(135deg,
+    #fed128 0%,
+      #fed128 50%,
+      #1cd8df 50%,
+      #1cd8df 100%);
 }
