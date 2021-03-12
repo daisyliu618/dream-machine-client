@@ -30,7 +30,7 @@ const Navbar = () => {
     }
 
     setUser(JSON.parse(localStorage.getItem("profile")));
-  }, [location]);
+  }, []);
 
   return (
     <div>
