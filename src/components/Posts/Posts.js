@@ -19,7 +19,7 @@ const Posts = ({ setCurrentId }) => {
     >
       {posts.map((post) => (
         <Grid KEY={post._id} item xs={12} sm={6}>
-          <Post post={post} setCurrentId={setCurrentId} key={setCurrentId}/>
+          <Post post={post} setCurrentId={setCurrentId} key={setCurrentId} />
         </Grid>
       ))}
     </Grid>

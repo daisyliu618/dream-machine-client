@@ -1,21 +1,15 @@
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from "@material-ui/core/styles";
 
 export default makeStyles((theme) => ({
   paper: {
     marginTop: theme.spacing(8),
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
     padding: theme.spacing(2),
-    borderRadius: "15px",
-    boxShadow: "0 10px 10px rgb(0 0 0 / 20%), 0 0 50px rgb(0 0 0 / 20%)",
-
-    "&:hover": {
-      boxShadow: "0 0 10px #fff, -10px 0 30px #F6F50A, 10px 0 10px #F6F50A",
-    },
   },
   root: {
-    '& .MuiTextField-root': {
+    "& .MuiTextField-root": {
       margin: theme.spacing(1),
     },
   },
@@ -24,7 +18,7 @@ export default makeStyles((theme) => ({
     backgroundColor: theme.palette.secondary.main,
   },
   form: {
-    width: '100%', // Fix IE 11 issue.
+    width: "100%", // Fix IE 11 issue.
     marginTop: theme.spacing(3),
   },
   submit: {
