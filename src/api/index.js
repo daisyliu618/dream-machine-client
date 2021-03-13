@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "https://dream-machine-daisyliu.herokuapp.com" });
+const API = axios.create({ baseURL: "https://dream-app-backend.herokuapp.com/" });
 
 // const API = axios.create({ baseURL: "http://localhost:5000" });
 
