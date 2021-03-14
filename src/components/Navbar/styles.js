@@ -20,6 +20,7 @@ export default makeStyles((theme) => ({
     background: "rgba(36, 209, 215, 0.75)",
     borderRadius: "5px",
     boxShadow: "0 5px 5px rgb(0 0 0 / 20%), 0 0 20px rgb(0 0 0 / 20%)",
+    marginLeft: '1.5rem'
   },
   profile: {
     display: "flex",
